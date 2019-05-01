@@ -1,5 +1,10 @@
+# $1 parametro teste
 echo "# Initializing $1 backend #"
-git checkout master
-git reset --hard
-git pull origin master
+echo $1
+rm -rf vendor
+composer clear-cache
+composer update
+mkdir modules
+cd ../modules
+
 echo "# Done $1 backend #"

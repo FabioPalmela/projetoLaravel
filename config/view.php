@@ -15,6 +15,8 @@ return [
 
     'paths' => [
         resource_path('views'),
+        resource_path('../vendor/fabiopalmela/libcredicom/template'),
+        resource_path('../vendor/fabiopalmela/libcredicom/menu')
     ],
 
     /*
